@@ -1,0 +1,74 @@
+body {
+  background-color: black;
+  /* background-image: src(..\images\fire-flame-black-background.jpg); */
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.survey {
+  width: 80%;
+  background-color: rgb(75, 13, 13);
+  color: azure;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+}
+  
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+}
+  
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 4em;
+}
+    
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #020230;
+  border-top: #020230;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+  
+input, textarea {
+  background-color: #e9ecd9;
+  border: 1px solid #0a0a23;
+  color: #030303;
+}
+  
+.inline {
+  padding-top: 1cap;
+  width: unset;
+  vertical-align: auto;
+  margin: 0 .5em 0 0;
+  }
+  
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #b7b7da;
+  border-color: white;
+  min-width: 300px;
+  font-family: 'Times New Roman';
+}
