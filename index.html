@@ -9,17 +9,18 @@
     <link rel="stylesheet" href="style.css">
     <title>Site Survey</title>
 </head>
-<body>
+<body background="images/fire.jpg">
     <div class="survey">
     <h1 id="title">Site Survey</h1>
     <p id="description">Please, take a few minutes to help us improve the site!</p>
     <form id="survey-form">
         
-        <fieldset>
-        <label for="name" id="name-label">Name <input id="name" type="text" placeholder="Enter Your Name" required></label>
-        <label for="email" id="email-label">Email <input type="email" name="email" id="email" placeholder="Enter a Valid Email" required></label>
-        <label for="number" id="number-label">Age <input type="number" name="number" id="number" min="10" max="99" placeholder="Enter Your Age"></label>
-        <label for="genres">Genres <input type="text" id="genres" name="genres" placeholder="What is/are your favorit genre(s)?"></label>
+        <fieldset for="info">
+            <h2>Personal Information</h2>
+        <label class="info"><p2>Name:</p2> <input type="text" placeholder="Enter Your Name" required /></label>
+        <label class="info"><p2>Email:</p2> <input type="email" name="email" id="email" placeholder="Enter a Valid Email" required /></label>
+        <label class="info"><p2>Age:</p2> <input type="number" name="number" id="number" min="10" max="99" placeholder="Enter Your Age" /></label>
+        <label class="info"><p2>Genres:</p2> <input type="text" id="genres" name="genres" placeholder="What is/are your favorit genre(s)?" /></label>
         <label for="current-role">Why do you use the site?
             <select name="current-role" id="current-role">
             <option value="selector" disabled selected>Please select... </option>
@@ -33,34 +34,34 @@
             </fieldset>
         
         <fieldset>
-        <label for="favorite">What is your favorite feature of the site?
-            <select name="attribute" id="favorite">
-            <option value="fav-select" class="inline" selected disabled>Select an Option </option>
-            <option value="upload" class="inline">I can upload and share my (bands) music for free </option>
-            <option value="venue" class="inline">I can connect with, follow, book, or buy tickets from venues </option>
-            <option value="sitelinks" class="inline">The links provided to help me (STL, SteelWater, venue pages, etc.)</option>
-            <option value="promote" class="inline">I can promote my band to others </option>
-            <option value="follow" class="inline">I can follow my favorite musicians </option>
+        <h2>What is your favorite feature of the site?</h2>
+            <select name="attribute">
+            <option value="fav-select" selected disabled>Select an Option </option>
+            <option value="upload">I can upload and share my (bands) music for free </option>
+            <option value="venue">I can connect with, follow, book, or buy tickets from venues </option>
+            <option value="sitelinks">The links provided to help me (STL, SteelWater, venue pages, etc.)</option>
+            <option value="promote">I can promote my band to others </option>
+            <option value="follow">I can follow my favorite musicians </option>
                 </select> 
-            </label>
+            </h2>
         </fieldset>
-        <fieldset>
-        <label class="inline">What would you like to see improved?</label>
-            <label for="imp-dm">Better DM Options</label> <input type="checkbox" name="improvements" id="imp-dm" class="inline" value="1">
-            <label for="imp-media-type">More Media Types</label><input type="checkbox" name="improvements" id="imp-media-type" class="inline" value="2">
-            <label for="imp-page-help">More guides/help with my page</label> <input type="checkbox" name="improvements" id="imp-page-help" class="inline" value="3"> 
-            <label for="imp-photo">More photo editing options</label> <input type="checkbox" name="improvements" id="imp-photo" class="inline" value="4">
-            <label for="imp-video-options">Video creation/editing options</label> <input type="checkbox" name="improvements" id="imp-video-options" class="inline" value="5"> 
-            <label for="imp-follow-public">Public follower pages</label> <input type="checkbox" name="improvements" id="imp-follow-public" class="inline" value="6">
-            <label for="imp-groupie-page">Groupie/Fan Page(s)</label> <input type="checkbox" name="improvements" id="imp-groupie-page" class="inline" value="7">
-            <label for="imp-contribute-options">Live contribute options, not just uploading</label> <input type="checkbox" name="improvements" id="imp-contribute-options" class="inline" value="8">
-            <label for="imp-courses">Music/theory teacher pages</label> <input type="checkbox" name="improvements" id="imp-courses" class="inline" value="9">
+        
+        <fieldset for="improvements">
+        <h2>What would you like to see improved?</h2>
+            <label class="improvements">Better DM Options<input type="checkbox"  /></label> 
+            <label class="improvements">More Media Types<input type="checkbox" ></label>
+            <label class="improvements">More guides/help with my page<input type="checkbox" ></label>  
+            <label class="improvements">More photo editing options<input type="checkbox" ></label> 
+            <label class="improvements">Video creation/editing options<input type="checkbox" ></label>  
+            <label class="improvements">Public follower pages<input type="checkbox" ></label> 
+            <label class="improvements">Groupie/Fan Page(s)<input type="checkbox" ></label> 
+            <label class="improvements">Live contribute options, not just uploading <input type="checkbox" ></label> 
+            <label class="improvements">Music/theory teacher pages <input type="checkbox" ></label> 
         </fieldset>
         
         <fieldset>
-        <label for="additional-comments">Do you have any other comments or suggestions?
+        <h3>Do you have any other comments or suggestions?</h3>
             <textarea id="additional-comments" name="additional-comments" rows="3" cols="30" placeholder="Enter comments here..."></textarea>
-        </label>
         </fieldset>
         
         <input type="submit" value="Submit">

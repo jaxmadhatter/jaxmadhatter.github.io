@@ -1,23 +1,17 @@
 body {
-  background-color: black;
-  /* background-image: src(..\images\fire-flame-black-background.jpg); */
   font-family: sans-serif;
   padding: 20px;
 }
 
 .survey {
   width: 80%;
-  background-color: rgb(75, 13, 13);
+  background-color: #4B0D0D;
   color: azure;
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
   max-width: 500px;
-}
-  
-h1, p {
-  margin: 1em auto;
-  text-align: center;
+  border-radius: 10px 50px 10px 70px;
 }
   
 form {
@@ -27,48 +21,79 @@ form {
   margin: 0 auto;
   padding-bottom: 4em;
 }
-    
+
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+p2 {
+  margin-bottom: 5pt;
+}
+
+h2, h3 {
+  font-family: 'Times New Roman';
+  color: #f3aeae;
+}
+
+h2:last-of-type {
+  padding-bottom: 2px;  
+}
+
 label {
   display: block;
-  margin: 0.5rem 0;
+  margin: 1.5rem 0;
+  width: 100%;
+  font-size: 12pt;
+}
+
+input [type="text, email, number"], textarea, select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+input, textarea, select {
+  cursor: pointer;
+  padding-top: 10pt;
 }
 
 fieldset {
-  border: none;
+   border: none;
   padding: 2rem 0;
   border-bottom: 3px solid #020230;
   border-top: #020230;
 }
 
-input,
-textarea,
-select {
-  margin: 10px 0 0 0;
-  width: 100%;
-  min-height: 2em;
+.info {
+  display: grid;
 }
-  
-input, textarea {
+
+.improvements {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+}
+
+textarea {
   background-color: #e9ecd9;
   border: 1px solid #0a0a23;
   color: #030303;
 }
-  
-.inline {
-  padding-top: 1cap;
-  width: unset;
-  vertical-align: auto;
-  margin: 0 .5em 0 0;
-  }
-  
+ 
 input[type="submit"] {
   display: block;
-  width: 60%;
   margin: 1em auto;
   height: 2em;
-  font-size: 1.1rem;
-  background-color: #b7b7da;
+  background-color: grey;
   border-color: white;
-  min-width: 300px;
+  min-width: 100px;
   font-family: 'Times New Roman';
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #0d4b4b;
+  text-transform: uppercase;
+  text-decoration: underline;
+  padding: 3pt;
 }
