@@ -1,17 +1,26 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+
+/* James Enkey
+    CIS-133
+    Tribute.CSS */
 body {
     font-family: Georgia, 'Segoe UI', sans-serif;
     padding: 20px;
     background-image: url("dirt.jpg"); /*Background image*/
     }
 
-header {
+header {        /* Header centered and wider than the sections... I think that looks cool, but I could be wrong */
     justify-content: center;
     background-color: #5b4724;
     margin: auto;
     max-width: 700px;    
 }
 
-.navigate {
+.navigate {  /* navigate buttons... I want to add more as the site grows */
     justify-content: center; 
     display: inline-flex;
     align-items: center;
@@ -24,7 +33,7 @@ a {
     font-size: 20px;
 }
 
-section {
+section { /* section formatting, I want to revisit my color palette... */
     justify-content: center;
     background-color: #7c4f1d;
     margin: auto;
@@ -32,14 +41,14 @@ section {
     padding-top: 1%;
 }
 
-title, h1, h2  {
+title, h1, h2  { /* uniformity of the titles and headers */
     color: #171109;
     text-align: center;
     text-decoration: underline;
     text-transform: uppercase;
 }
 
-p {
+p { /* uniformity of all the text on the page */
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -56,12 +65,12 @@ img, figcaption {
     max-height: fit-content;
 }
 
-ul > li > a {
+ul > li > a { /* I wanted these links to be a different color... but I don't like this blue... */
     color: rgb(122, 122, 241);
     margin-bottom: 20px;
 }
 
-.rainbow-letters {
+.rainbow-letters { /* this is the CSS of the Rainbow letters I found on w3, I love it. */
     font-size: 40px;
     font-family: sans-serif;
     text-transform: uppercase;
@@ -101,6 +110,6 @@ ul > li > a {
     color: #ffc107;
   }
 
-.footers {
+.footers { /* footer formatting for readability */
     color: black;
 }
