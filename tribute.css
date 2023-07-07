@@ -1,0 +1,106 @@
+body {
+    font-family: Georgia, 'Segoe UI', sans-serif;
+    padding: 20px;
+    background-image: url("dirt.jpg"); /*Background image*/
+    }
+
+header {
+    justify-content: center;
+    background-color: #5b4724;
+    margin: auto;
+    max-width: 700px;    
+}
+
+.navigate {
+    justify-content: center; 
+    display: inline-flex;
+    align-items: center;
+    padding: 8px;
+    margin-left: 185px;
+}
+
+a {
+    color: #caa882;
+    font-size: 20px;
+}
+
+section {
+    justify-content: center;
+    background-color: #7c4f1d;
+    margin: auto;
+    max-width: 650px;
+    padding-top: 1%;
+}
+
+title, h1, h2  {
+    color: #171109;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+p {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    max-width: 600px;
+    color: #ebebeb;
+    padding-left: 20pt;
+}
+
+img, figcaption {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+ul > li > a {
+    color: rgb(122, 122, 241);
+    margin-bottom: 20px;
+}
+
+.rainbow-letters {
+    font-size: 40px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+.rainbow-letters span:nth-child(10n + 1) {
+    color: #f32622;
+  }
+
+  .rainbow-letters span:nth-child(10n + 2) {
+    color: #400f49;
+  }
+  
+  .rainbow-letters span:nth-child(10n + 3){
+    color: #4310b1;
+  }
+  
+  .rainbow-letters span:nth-child(10n + 5){
+    color: #f1f508;
+  }
+  
+  .rainbow-letters span:nth-child(10n + 4) {
+    color: #21f33d;
+  }
+  
+  .rainbow-letters span:nth-child(10n + 6){
+    color: #00bcd4;
+  }
+  
+  .rainbow-letters span:nth-child(10n + 7){
+    color: #4caf50;
+  }
+  
+  .rainbow-letters span:nth-child(10n + 8){
+    color: #ffc107;
+  }
+
+.footers {
+    color: black;
+}
