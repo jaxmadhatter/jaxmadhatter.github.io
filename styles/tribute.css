@@ -1,7 +1,7 @@
 body {
     font-family: Georgia, 'Segoe UI', sans-serif;
     padding: 20px;
-    background-image: url("dirt.jpg"); /*Background image*/
+    background-image: url("../images/dirt.jpg"); /*Background image*/
     }
 
 header {
