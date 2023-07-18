@@ -1,0 +1,116 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+
+html {
+    background-image: url("/first-site/images/dirt.jpg");
+}
+
+.logo {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: #302512;
+    top: 0;
+    left: 0;
+    font-size: 30pt;
+    color: #ebebeb;
+    text-transform: uppercase;
+}
+
+nav {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    padding-top: 10pt;
+    padding-left: 120pt;
+    color:#ebebeb;
+    text-transform: uppercase;
+  }
+
+a {
+    color: black;
+}
+
+#headpic {
+    position: relative;
+    float: right;
+    height: 100pt; 
+    top: -20px;   
+}
+
+header {
+    padding-bottom: 90pt;
+    position: sticky;
+    z-index: 999;
+}
+  
+body {
+  font-family: 'Asul, Ariel, Sans-Serif';
+  padding: 20px;
+  background-image: url("\images\dirt.jpg"); /*Background image*/ 
+  }
+
+.welcome {
+    width: 100%;
+    height: auto;
+    background-color: #5b4724;
+    opacity: 0.75;
+    margin-bottom: 45px;
+    color: white;
+    grid-column: 2 / 3;
+    font-size: 1.2rem;
+    letter-spacing: 0.6px;
+    column-width: 25rem;
+    text-align: justify;
+}
+
+.taste {
+    width: 75%;
+    height: auto;
+    background-color: #5b4724;
+    opacity: .85;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10pt;
+    }
+
+.first-paragraph::first-letter {
+    font-size: 6rem;
+    color: White;
+    float: left;
+    margin-right: 1rem;
+  }
+
+h1 {
+    text-align: center;
+    color: #171109;
+    background-color: #caa882;
+    text-transform: uppercase;
+}
+
+.scholarimage {
+    height: 300pt;
+    width: 300;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+h2 {
+    text-align: center;
+    color: #171109;
+}
+
+footer {
+    height: 50px;
+    width: 200px;
+    background-color: grey;
+    color: darkslategray;
+}
