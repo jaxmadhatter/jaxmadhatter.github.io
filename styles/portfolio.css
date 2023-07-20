@@ -1,0 +1,149 @@
+img {
+    height: auto;
+    width: 200pt;
+}
+
+body {
+    background-color: rgb(82, 80, 80);
+}
+
+.nav {
+    position: fixed;
+    justify-content: flex-end;
+    display: flex;
+    width: 100%;
+    height: 15vh;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    background-color: black;
+}
+
+.nav-option {
+    display: flex;
+    margin-right: 2rem;
+}
+
+.nav-option a {
+    display: block;
+    font-size: 2.2rem;
+    padding: 2rem;
+    color: white;
+}
+
+#welcome-section {
+    height: 100vh;
+    background-color: #8c0b16;
+    margin-top: 110pt;
+    margin-bottom: 10pt;
+    padding-top: 150pt;
+}
+
+#me {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 3%;
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+#projects {
+    background-color: #005666; 
+    width: 100%;
+    height: 70vh;
+    margin-bottom: 10pt; 
+}
+
+.project-tiles {
+    display: flex;
+    justify-content: center;
+}
+
+.project-tile {
+    display: block;
+    font-size: 2.2rem;
+    padding: 2rem;
+}
+
+h1 {
+    text-align: center;
+    color: #55050c;
+    font-size: 40pt;
+}
+
+hr {
+    border-color: #55050c;
+}
+
+h3 {
+    text-align: justify;
+    color: rgb(238, 208, 208);
+}
+
+#bio {
+    width: 100%;
+    height: 20vh;
+    background-color: #181f4c;
+    padding-top: 2vh;
+    text-align: center;
+    margin-bottom: 10pt;;
+}
+
+#contact {
+    width: 100%;
+    height: 20vh;
+    background-color: #8c0b16;
+    display: flex;
+    justify-content: center;
+    padding-top: 20pt;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    height: 25px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 2.2rem;
+    padding: 2rem;
+    justify-content: space-between;
+  }
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+.fa-instagram {
+    background: #55ACEE;
+    color: yellow;
+  }
+
+.fa-google {
+    background: tan;
+    color: black;
+}
+
+h4 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: white;
+    font-size: x-large;
+}
+
+@media screen and (min-width: 480px) {
+    #leftsidebar {width: 200px; float: left;}
+    #main {margin-left: 216px;}
+  }
+
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
